@@ -1,0 +1,47 @@
+.tp-el-content span {
+    font-weight: 500;
+    color: var(--tp-heading-primary);
+}
+
+div.tp-sticky-image {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 120px;
+}
+
+.tp-event-4-item .tp-event-inner-user img+img,
+.tp-event-inner-content .tp-event-inner-user img+img {
+    margin-left: -15px;
+}
+
+.etn-event-organizers .etn-social a {
+    background: transparent;
+    font-size: 15px;
+    color: #5b5d63;
+    width: 0;
+    height: 0;
+    margin: 0 15px;
+    border: none;
+}
+
+.etn-event-organizers .etn-social a:hover {
+    border: none;
+}
+
+.etn-event-search-wrapper .input-group {
+    height: 60%;
+}
+
+.tp_small_undeline .tp-el-acadia-title span svg,
+.tp_small_undeline .tp-el-acadia-title span img {
+    bottom: -15px !important;
+
+}
+
+.tp-event-details-breadcrumb-content .alert.alert-danger {
+    display: inline-block;
+}
+
+.tp-header-user-profile-thumb {
+    flex: 0 0 40px;
+}
